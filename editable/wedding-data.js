@@ -1,18 +1,17 @@
 /**
  * wedding-data.js — Customer-facing editable data layer for ever-after-bloom
- * Couple: Fairy Gupta & Vinayak Bansal
+ * Couple: Fairy & Vinayak
  * Date: 6 & 7 December 2026
  * Venue: Bhanwar Singh Palace, Jaipur
  */
 
 window.WEDDING_DATA = {
   couple: {
-    bride: "Fairy Gupta",
-    groom: "Vinayak Bansal",
+    bride: "Fairy",
+    groom: "Vinayak",
     initials: "F & V",
   },
   family: {
-    city: "Kota, Rajasthan",
     bride: {
       name: "Fairy Gupta",
       parents: "Mrs. Seema & Mr. Manoj Gupta",
@@ -21,6 +20,7 @@ window.WEDDING_DATA = {
     groom: {
       name: "Vinayak Bansal",
       parents: "Mrs. Sonali & Mr. Manoj Bansal",
+      city: "Kota, Rajasthan",
     },
   },
   dateISO: "2026-12-06T12:30:00+05:30",
@@ -78,6 +78,13 @@ window.WEDDING_DATA = {
       title: "RECEPTION",
       theme: "Theme: Garden of Lights",
       meta: "DRESS CODE: ROYAL ETHNIC WEAR"
+    },
+    {
+      date: "8 DEC 2026",
+      time: "8:00 AM",
+      icon: "editable/assets/ev-vidai.png",
+      title: "PYAAR BHARI VIDAI",
+      meta: "WITH BLESSINGS, LOVE & MEMORIES"
     }
   ],
   footer: {
@@ -112,5 +119,6 @@ window.WEDDING_DATA = {
     evSangeet: "./editable/assets/ev-sangeet.png",
     evWedding: "./editable/assets/ev-wedding.png",
     evReception: "./editable/assets/ev-reception.png",
+    evVidai: "./editable/assets/ev-vidai.png",
   },
 };
