@@ -50,7 +50,6 @@ window.WEDDING_DATA = {
     {
       date: "6 DEC 2026",
       time: "12:30 PM",
-      icon: "editable/assets/ev-carnival.png",
       title: "CARNIVAL",
       theme: "Theme: Tropical Fiesta",
       meta: "DRESS CODE: COLOURFUL AND CAREFREE"
@@ -58,7 +57,6 @@ window.WEDDING_DATA = {
     {
       date: "6 DEC 2026",
       time: "7:00 PM",
-      icon: "editable/assets/ev-sangeet.png",
       title: "SANGEET & COCKTAIL",
       theme: "Theme: Starry Nights",
       meta: "DRESS CODE: SPARKLE AND SHINE"
@@ -66,7 +64,6 @@ window.WEDDING_DATA = {
     {
       date: "7 DEC 2026",
       time: "12:00 PM",
-      icon: "editable/assets/ev-wedding.png",
       title: "WEDDING",
       theme: "Theme: Ivory Affair",
       meta: "DRESS CODE: DESI FESTIVE VIBES"
@@ -74,7 +71,6 @@ window.WEDDING_DATA = {
     {
       date: "7 DEC 2026",
       time: "8:00 PM",
-      icon: "editable/assets/ev-reception.png",
       title: "RECEPTION",
       theme: "Theme: Garden of Lights",
       meta: "DRESS CODE: ROYAL ETHNIC WEAR"
@@ -82,7 +78,6 @@ window.WEDDING_DATA = {
     {
       date: "8 DEC 2026",
       time: "8:00 AM",
-      icon: "editable/assets/ev-vidai.png",
       title: "PYAAR BHARI VIDAI",
       meta: "WITH BLESSINGS, LOVE & MEMORIES"
     }
