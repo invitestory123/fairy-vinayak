@@ -44,7 +44,6 @@ window.WEDDING_DATA = {
       "KRM Infracom",
       "Manoj Trading Company"
     ],
-    city: "Kota, Rajasthan"
   },
   schedule: [
     {
@@ -85,7 +84,7 @@ window.WEDDING_DATA = {
   footer: {
     line1: "Come early. Stay late.",
     line2: "Celebrate with us.",
-    compliments: "With Best Compliments: Skyline Heights · KRM Infracom · Manoj Trading Company (Kota, Rajasthan)",
+    compliments: "With Best Compliments: Skyline Heights · KRM Infracom · Manoj Trading Company",
     signoff: "With all our love, Fairy & Vinayak",
   },
   images: {
