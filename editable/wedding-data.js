@@ -26,6 +26,14 @@ window.WEDDING_DATA = {
     eyebrow: "Save the Date",
     blessing: "Two souls, one sacred journey",
   },
+  compliments: {
+    title: "With Best Compliments",
+    firms: [
+      "Skyline Heights",
+      "KRM Infracom",
+      "Manoj Trading Company"
+    ]
+  },
   story: {
     title: "The Two of Them",
     subtitle: "A story written in love and light",
@@ -101,6 +109,7 @@ window.WEDDING_DATA = {
   footer: {
     line1: "Come early. Stay late.",
     line2: "Celebrate with us.",
+    compliments: "With Best Compliments: Skyline Heights · KRM Infracom · Manoj Trading Company",
     signoff: "With all our love, Fairy & Vinayak",
   },
   images: {
