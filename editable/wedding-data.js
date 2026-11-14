@@ -1,26 +1,37 @@
 /**
  * wedding-data.js — Customer-facing editable data layer for ever-after-bloom
- * Couple: Fairy & Vinayak
+ * Couple: Fairy Gupta & Vinayak Bansal
  * Date: 6 & 7 December 2026
  * Venue: Bhanwar Singh Palace, Jaipur
  */
 
 window.WEDDING_DATA = {
   couple: {
-    bride: "Fairy",
-    groom: "Vinayak",
+    bride: "Fairy Gupta",
+    groom: "Vinayak Bansal",
     initials: "F & V",
   },
-  dateISO: "2026-12-06T11:00:00+05:30",
+  family: {
+    city: "Kota, Rajasthan",
+    bride: {
+      name: "Fairy Gupta",
+      parents: "Mrs. Seema & Mr. Manoj Gupta",
+      grandparents: "Smt. Kamlesh & Late Shri Vijay Prakash Gupta",
+    },
+    groom: {
+      name: "Vinayak Bansal",
+      parents: "Mrs. Sonali & Mr. Manoj Bansal",
+    },
+  },
+  dateISO: "2026-12-06T12:30:00+05:30",
   dateLabel: "6 & 7 December 2026",
-  timeLabel: "11:00 AM onwards",
+  timeLabel: "12:30 PM onwards",
   venue: {
     name: "Bhanwar Singh Palace",
     address: "Jaipur, Rajasthan",
     mapsQuery: "Bhanwar Singh Palace Jaipur",
     mapsUrl: "https://share.google/GddtzztaZERcnjWRe",
   },
-  dressCode: "Festive Indian — pastels, ivory & gold",
   hero: {
     kicker: "Together with our families",
     eyebrow: "Save the Date",
@@ -32,84 +43,47 @@ window.WEDDING_DATA = {
       "Skyline Heights",
       "KRM Infracom",
       "Manoj Trading Company"
-    ]
-  },
-  story: {
-    title: "The Two of Them",
-    subtitle: "A story written in love and light",
-    bride: {
-      name: "Fairy",
-      role: "The Bride",
-      text: "With a heart full of sunshine and an infectious smile, she turns the simplest moments into lasting memories. She loves laughter, deep conversations, and dreams of a beautiful forever.",
-    },
-    groom: {
-      name: "Vinayak",
-      role: "The Groom",
-      text: "Calm, thoughtful, and deeply loving, he brings patience and steadfast warmth wherever he goes. He cherishes every shared melody, every smile, and the journey ahead.",
-    },
+    ],
+    city: "Kota, Rajasthan"
   },
   schedule: [
     {
       date: "6 DEC 2026",
-      time: "11:00 AM",
-      title: "HALDI HUNGAMA",
-      meta: "DRESS CODE: PRETTY IN PASTELS"
+      time: "12:30 PM",
+      icon: "editable/assets/ev-carnival.png",
+      title: "CARNIVAL",
+      theme: "Theme: Tropical Fiesta",
+      meta: "DRESS CODE: COLOURFUL AND CAREFREE"
     },
     {
       date: "6 DEC 2026",
-      time: "5:00 PM",
-      title: "MASTANI SHAAM",
-      meta: "DRESS CODE: GLAMOUR EDIT"
+      time: "7:00 PM",
+      icon: "editable/assets/ev-sangeet.png",
+      title: "SANGEET & COCKTAIL",
+      theme: "Theme: Starry Nights",
+      meta: "DRESS CODE: SPARKLE AND SHINE"
     },
     {
       date: "7 DEC 2026",
       time: "12:00 PM",
-      title: "VIVAH SANKALP",
-      meta: "SACRED VEDIC NUPTIALS"
+      icon: "editable/assets/ev-wedding.png",
+      title: "WEDDING",
+      theme: "Theme: Ivory Affair",
+      meta: "DRESS CODE: DESI FESTIVE VIBES"
     },
     {
       date: "7 DEC 2026",
       time: "8:00 PM",
-      title: "PREM MALA",
-      meta: "A VARMALA CEREMONY"
-    },
-    {
-      date: "8 DEC 2026",
-      time: "10:00 AM",
-      title: "PYAAR BHARI VIDAI",
-      meta: "WITH BLESSINGS, LOVE & MEMORIES"
+      icon: "editable/assets/ev-reception.png",
+      title: "RECEPTION",
+      theme: "Theme: Garden of Lights",
+      meta: "DRESS CODE: ROYAL ETHNIC WEAR"
     }
-  ],
-  chapters: [
-    {
-      no: "I",
-      title: "Haldi Hungama",
-      when: "6 Dec 2026 · 11:00 AM",
-      text: "Pretty in pastels · Sunshine, turmeric, laughter and songs.",
-    },
-    {
-      no: "II",
-      title: "Mastani Shaam",
-      when: "6 Dec 2026 · 5:00 PM",
-      text: "Glamour edit · An evening of music, dance, and celebrations under the stars.",
-    },
-    {
-      no: "III",
-      title: "Vivah Sankalp",
-      when: "7 Dec 2026 · 12:00 PM",
-      text: "Sacred Vedic nuptials · Walking around the holy fire and solemn promises.",
-    },
-    {
-      no: "IV",
-      title: "Prem Mala & Vidai",
-      when: "7 & 8 Dec 2026",
-      text: "Varmala ceremony followed by Pyaar Bhari Vidai with blessings and love.",
-    },
   ],
   footer: {
     line1: "Come early. Stay late.",
     line2: "Celebrate with us.",
-    compliments: "With Best Compliments: Skyline Heights · KRM Infracom · Manoj Trading Company",
+    compliments: "With Best Compliments: Skyline Heights · KRM Infracom · Manoj Trading Company (Kota, Rajasthan)",
     signoff: "With all our love, Fairy & Vinayak",
   },
   images: {
@@ -134,5 +108,9 @@ window.WEDDING_DATA = {
     flourishLeft: "./editable/assets/flourish-left.png",
     flourishRight: "./editable/assets/flourish-right.png",
     floatingRose: "./editable/assets/floating-rose.png",
+    evCarnival: "./editable/assets/ev-carnival.png",
+    evSangeet: "./editable/assets/ev-sangeet.png",
+    evWedding: "./editable/assets/ev-wedding.png",
+    evReception: "./editable/assets/ev-reception.png",
   },
 };
