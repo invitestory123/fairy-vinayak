@@ -1,7 +1,7 @@
 /**
  * wedding-data.js — Customer-facing editable data layer for ever-after-bloom
  * Couple: Fairy & Vinayak
- * Date: 6 & 7 December 2026
+ * Date: 7 December 2026
  * Venue: Bhanwar Singh Palace, Jaipur
  */
 
@@ -33,9 +33,9 @@ window.WEDDING_DATA = {
       "Rashi"
     ]
   },
-  dateISO: "2026-12-06T12:30:00+05:30",
-  dateLabel: "6 & 7 December 2026",
-  timeLabel: "12:30 PM onwards",
+  dateISO: "2026-12-07T12:00:00+05:30",
+  dateLabel: "7 December 2026",
+  timeLabel: "12:00 PM onwards",
   venue: {
     name: "Bhanwar Singh Palace",
     address: "Jaipur, Rajasthan",
@@ -58,20 +58,6 @@ window.WEDDING_DATA = {
   },
   schedule: [
     {
-      date: "6 DEC 2026",
-      time: "12:30 PM",
-      title: "CARNIVAL",
-      theme: "Theme: Tropical Fiesta",
-      meta: "DRESS CODE: COLOURFUL AND CAREFREE"
-    },
-    {
-      date: "6 DEC 2026",
-      time: "7:00 PM",
-      title: "SANGEET & COCKTAIL",
-      theme: "Theme: Starry Nights",
-      meta: "DRESS CODE: SPARKLE AND SHINE"
-    },
-    {
       date: "7 DEC 2026",
       time: "12:00 PM",
       title: "WEDDING",
@@ -84,12 +70,6 @@ window.WEDDING_DATA = {
       title: "RECEPTION",
       theme: "Theme: Garden of Lights",
       meta: "DRESS CODE: ROYAL ETHNIC WEAR"
-    },
-    {
-      date: "8 DEC 2026",
-      time: "8:00 AM",
-      title: "PYAAR BHARI VIDAI",
-      meta: "WITH BLESSINGS, LOVE & MEMORIES"
     }
   ],
   footer: {
