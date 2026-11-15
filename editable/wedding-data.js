@@ -16,12 +16,22 @@ window.WEDDING_DATA = {
       name: "Fairy Gupta",
       parents: "Mrs. Seema & Mr. Manoj Gupta",
       grandparents: "Smt. Kamlesh & Late Shri Vijay Prakash Gupta",
+      chacha: "Mr. Vipin Gupta",
     },
     groom: {
       name: "Vinayak Bansal",
       parents: "Mrs. Sonali & Mr. Manoj Bansal",
       city: "Kota, Rajasthan",
     },
+  },
+  bestWishes: {
+    title: "With Best Wishes",
+    subtitle: "Brothers & Sisters",
+    names: [
+      "Devansh",
+      "Kunal",
+      "Rashi"
+    ]
   },
   dateISO: "2026-12-06T12:30:00+05:30",
   dateLabel: "6 & 7 December 2026",
@@ -42,8 +52,9 @@ window.WEDDING_DATA = {
     firms: [
       "Skyline Heights",
       "KRM Infracom",
-      "Manoj Trading Company"
-    ],
+      "Manoj Trading Company",
+      "Farry Agency"
+    ]
   },
   schedule: [
     {
@@ -84,7 +95,7 @@ window.WEDDING_DATA = {
   footer: {
     line1: "Come early. Stay late.",
     line2: "Celebrate with us.",
-    compliments: "With Best Compliments: Skyline Heights · KRM Infracom · Manoj Trading Company",
+    compliments: "With Best Compliments: Skyline Heights · KRM Infracom · Manoj Trading Company · Farry Agency",
     signoff: "With all our love, Fairy & Vinayak",
   },
   images: {
@@ -109,10 +120,5 @@ window.WEDDING_DATA = {
     flourishLeft: "./editable/assets/flourish-left.png",
     flourishRight: "./editable/assets/flourish-right.png",
     floatingRose: "./editable/assets/floating-rose.png",
-    evCarnival: "./editable/assets/ev-carnival.png",
-    evSangeet: "./editable/assets/ev-sangeet.png",
-    evWedding: "./editable/assets/ev-wedding.png",
-    evReception: "./editable/assets/ev-reception.png",
-    evVidai: "./editable/assets/ev-vidai.png",
   },
 };

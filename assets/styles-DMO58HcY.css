@@ -633,3 +633,25 @@
     margin-bottom: 14px;
   }
 }
+
+/* Brothers & Sisters Subtitle in Best Wishes Card */
+.og-wishes-sub {
+  font-family: 'Cinzel', serif;
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--royale-gold-dark, #8a6a24);
+  margin: -6px 0 14px 0;
+  font-weight: 600;
+  font-style: italic;
+  display: block;
+  text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+  .og-wishes-sub {
+    font-size: 10px !important;
+    margin-bottom: 10px !important;
+    letter-spacing: 0.12em !important;
+  }
+}
