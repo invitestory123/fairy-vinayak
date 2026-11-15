@@ -16,7 +16,8 @@ window.WEDDING_DATA = {
       name: "Fairy Gupta",
       parents: "Mrs. Seema & Mr. Manoj Gupta",
       grandparents: "Smt. Kamlesh & Late Shri Vijay Prakash Gupta",
-      chacha: "Mr. Vipin Gupta",
+      chacha: "Mrs. Sarika and Mr. Vipin Gupta",
+      chachi: "Mrs. Sarika Gupta",
     },
     groom: {
       name: "Vinayak Bansal",
